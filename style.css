@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+
+.aviso{
+    font-size: 3rem;
+    background-color: aliceblue;
+}
+
+.fala{
+    font-size: 3.2rem;
+    background-color: aliceblue;
+}
+
+.dias{
+    font-size: 4rem;
+}
+
+.dias img{
+    width: 90%;
+}

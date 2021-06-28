@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dia 9</title>
+</head>
+<body>
+    <div class="aviso"><h1>
+        Me desculpa vida...
+    </h1></div>
+    <div class="fala">
+        <h1 id="fala">
+            Eu te amo demais...
+        </h1>
+    </div>
+    <div class="dias">
+        <h1>Dia 9</h1>
+        <img src="vida.jpg" alt="">
+    </div>
+
+    <script>
+        let amor = document.getElementById('fala')
+        let red = Math.floor(Math.random()*255)
+        let green = Math.floor(Math.random()*255)
+        let blue = Math.floor(Math.random()*255)
+
+        amor.style = 'color: rgb('+red+' '+green+' '+blue+')'
+        document.body.style = 'background-color: rgb('+red+' '+green+' '+blue+')'
+    </script>
+
+</body>
+</html>
